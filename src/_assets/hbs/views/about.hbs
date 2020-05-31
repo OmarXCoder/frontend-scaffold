@@ -1,0 +1,33 @@
+---
+title: About page
+body_class: about-page
+
+css_plugins:
+- assets/vendor/lightbox2/dist/css/lightbox.min.css
+
+js_plugins:
+- assets/vendor/lightbox2/dist/js/lightbox.min.js
+
+styles:
+- assets/css/pages/about.css
+
+scripts:
+- assets/js/pages/about.js
+---
+
+<div class="st-content">
+    <h1>Image gallery</h1>
+    <p>Click on the images below</p>
+
+    <div class="row">
+        {{#each people }}
+        <div class="col-sm-6 col-lg-3">
+            <div class="card mb-4">
+                <a href="{{avatar}}" data-lightbox="img-gallery">
+                    <img src="{{ avatar }}" alt="avatar" class="card-img">
+                </a>
+            </div>
+        </div>
+        {{/each }}
+    </div><!-- .row -->
+</div>

@@ -1,0 +1,13 @@
+body {
+    color: $secondary;
+}
+
+.st-wrapper {
+    display: flex;
+}
+
+.st-main {
+    padding: 24px;
+    flex: auto;
+    min-width: 0;
+}

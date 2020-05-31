@@ -1,0 +1,37 @@
+// Here put the variables that you want to overwrite the default of bootstrap
+
+$blue: #0038f2;
+$indigo: #674eec;
+$purple: #8445f7;
+$pink: #ff4169;
+$red: #c4183c;
+$orange: #fb7906;
+$yellow: #ffb400;
+$green: #27ae60;
+$teal: #1adba2;
+
+$dark: #212529;
+$secondary: #5a6169;
+
+$colors: (
+    "gray": #868e96,
+);
+
+$link-hover-color: #0056b3;
+$link-hover-decoration: none;
+
+$body-color: $secondary;
+$body-bg: #f6f6f6;
+
+$font-family-sans-serif: "Nunito", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial,
+    sans-serif;
+
+// inputs
+$input-btn-padding-x: 1rem;
+
+// buttons
+$btn-border-radius: 8px;
+$btn-border-radius-lg: 12px;
+$btn-border-radius-sm: 4px;
+
+$custom-control-indicator-size: 1.25rem;

@@ -1,0 +1,11 @@
+// import config before bootstrap variables to overwrite the bootstrap defaults
+@import "./config";
+
+@import "~bootstrap/scss/functions";
+@import "~bootstrap/scss/variables";
+@import "~bootstrap/scss/mixins";
+
+// import custom mixins after bootstrap mixins to overwrite the bootstrap defaults
+@import "./mixins";
+
+$sidebar-width: 240px;
